@@ -7,8 +7,39 @@ namespace ABS_System.Models
 {
     public class Coca : Bebida
     {
-        public Coca(string copo, int pedrasDeGelo, int opcoesDeTamanho, bool takeOut, bool eatIn) : base(copo, pedrasDeGelo, opcoesDeTamanho, takeOut, eatIn)
+        public bool condicao = true;
+        public string tipoDaBebida = "refrigerante";
+        public string copo = "copo de papél";
+        public Coca()
         {}
+        public void Escolha(){
+            
+        Console.WriteLine("Escolha dentre as opções de proporção: \n1 - 300ml\n2 - 500ml\n3 - 700ml");
+        while(condicao == true){
+
+            switch (Console.ReadLine()){
+        case "1":
+            OpcoesDeTamanho = 300;
+            condicao = false;
+            break;
+
+        case "2":
+            OpcoesDeTamanho = 500;
+            condicao = false;
+            break;
+
+        case "3":
+            OpcoesDeTamanho = 700;
+            condicao = false;
+            break;
+
+        default:
+            Console.WriteLine("Opção inválida");
+            condicao = true;
+            break;
+    }
+}
+        }
     }
     
 }

@@ -1,0 +1,14 @@
+D:\projetos\ABS_System\bin\Debug\net7.0\ABS_System.exe
+D:\projetos\ABS_System\bin\Debug\net7.0\ABS_System.deps.json
+D:\projetos\ABS_System\bin\Debug\net7.0\ABS_System.runtimeconfig.json
+D:\projetos\ABS_System\bin\Debug\net7.0\ABS_System.dll
+D:\projetos\ABS_System\bin\Debug\net7.0\ABS_System.pdb
+D:\projetos\ABS_System\obj\Debug\net7.0\ABS_System.GeneratedMSBuildEditorConfig.editorconfig
+D:\projetos\ABS_System\obj\Debug\net7.0\ABS_System.AssemblyInfoInputs.cache
+D:\projetos\ABS_System\obj\Debug\net7.0\ABS_System.AssemblyInfo.cs
+D:\projetos\ABS_System\obj\Debug\net7.0\ABS_System.csproj.CoreCompileInputs.cache
+D:\projetos\ABS_System\obj\Debug\net7.0\ABS_System.dll
+D:\projetos\ABS_System\obj\Debug\net7.0\refint\ABS_System.dll
+D:\projetos\ABS_System\obj\Debug\net7.0\ABS_System.pdb
+D:\projetos\ABS_System\obj\Debug\net7.0\ABS_System.genruntimeconfig.cache
+D:\projetos\ABS_System\obj\Debug\net7.0\ref\ABS_System.dll

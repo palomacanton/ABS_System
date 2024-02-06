@@ -7,21 +7,16 @@ namespace ABS_System.Models
 {
     public abstract class Bebida
     {
-        private string _copo;  // tornando privado
-        private int _pedrasDeGelo;  // tornando privado
-        public int _opcoesDeTamanho { get; private set; }  // usando private set
-        public bool _takeOut { get; private set; }  // usando private set
-        public bool _eatIn { get; private set; }  // usando private set
+        public string TipoDaBebida { get; set; }
+        public string Copo { get; set; }
+        public int PedrasDeGelo { get; set; }
+        public int OpcoesDeTamanho { get; set; }
+        public bool TakeOut { get; set; }
+        public bool EatIn { get; set; }
 
-        public Bebida(string copo, int pedrasDeGelo, int opcoesDeTamanho, bool takeOut, bool eatIn)
+        public Bebida()
         {
-            _copo = copo;
-            _pedrasDeGelo = pedrasDeGelo;
-            _opcoesDeTamanho = opcoesDeTamanho;
-            _takeOut = takeOut;
-            _eatIn = eatIn;
         }
 
-        // Outras propriedades e métodos
     }
 }
