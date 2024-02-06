@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 
 namespace ABS_System.Models
 {
-    public class Coca
+    public class Coca : Bebida
     {
-        
+        public Coca(string copo, int pedrasDeGelo, int opcoesDeTamanho, bool takeOut, bool eatIn) : base(copo, pedrasDeGelo, opcoesDeTamanho, takeOut, eatIn)
+        {}
     }
+    
 }

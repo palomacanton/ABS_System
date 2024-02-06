@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace ABS_System.Models
 {
-    public class SucoDeLaranja
+    public class SucoDeLaranja : Bebida
     {
-        
+        public SucoDeLaranja(string copo, int pedrasDeGelo, int opcoesDeTamanho, bool takeOut, bool eatIn) : base(copo, pedrasDeGelo, opcoesDeTamanho, takeOut, eatIn)
+        {}
     }
 }
