@@ -36,24 +36,34 @@ while(condicao == true){
 
 
 if(opcao == "Coca"){
-    Coca coca = new Coca();
+    Coca coca = new();
     coca.Escolha();
+    coca.OpcaoGelo();
+    coca.ComerNoRestaurante();
+    coca.PedidoRealizado();
 }else {
     if(opcao == "Guaraná"){
-        Guarana guarana = new Guarana();
+        Guarana guarana = new();
         guarana.Escolha();
+        guarana.OpcaoGelo();
+        guarana.ComerNoRestaurante();
+        guarana.PedidoRealizado();
     }else{
         if(opcao == "Suco de Laranja"){
-            SucoDeLaranja sucoDeLaranja = new SucoDeLaranja();
+            SucoDeLaranja sucoDeLaranja = new();
             sucoDeLaranja.Escolha();
+            sucoDeLaranja.OpcaoGelo();
+            sucoDeLaranja.ComerNoRestaurante();
+            sucoDeLaranja.PedidoRealizado();
         }else{
             if(opcao == "Suco de Uva"){
-                SucoDeUva sucoDeUva = new SucoDeUva();
+                SucoDeUva sucoDeUva = new();
                 sucoDeUva.Escolha();
+                sucoDeUva.OpcaoGelo();
+                sucoDeUva.ComerNoRestaurante();
+                sucoDeUva.PedidoRealizado();
             }
         }
     }
 }
 
-
-Console.WriteLine($"Você escolheu {opcao}");
